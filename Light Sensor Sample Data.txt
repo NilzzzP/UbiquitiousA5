@@ -489,4 +489,103 @@ metering in 5!
 
 Type a new label to start again:
 
+Label: [800, 1/30, 4.0]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[800, 1/30, 4.0] Light Level: 19.00 lux
+[800, 1/30, 4.0] Light Level: 19.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+[800, 1/30, 4.0] Light Level: 20.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
+Label: [3200, 1/30, 4.0]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 9.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+[3200, 1/30, 4.0] Light Level: 8.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
+
 
