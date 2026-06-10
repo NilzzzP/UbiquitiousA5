@@ -587,5 +587,55 @@ metering in 5!
 
 Type a new label to start again:
 
+Label: [320, 1/30, 3.5]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[320, 1/30, 3.5] Light Level: 105.00 lux
+[320, 1/30, 3.5] Light Level: 106.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 102.00 lux
+[320, 1/30, 3.5] Light Level: 102.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 102.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 102.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 105.00 lux
+[320, 1/30, 3.5] Light Level: 106.00 lux
+[320, 1/30, 3.5] Light Level: 107.00 lux
+[320, 1/30, 3.5] Light Level: 107.00 lux
+[320, 1/30, 3.5] Light Level: 107.00 lux
+[320, 1/30, 3.5] Light Level: 106.00 lux
+[320, 1/30, 3.5] Light Level: 105.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 104.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+[320, 1/30, 3.5] Light Level: 103.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
+
 
 
