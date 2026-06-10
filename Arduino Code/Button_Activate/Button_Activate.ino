@@ -85,6 +85,12 @@ void configureSensor(void)
 
 int ButtonPin = 9;
 
+String sessionLabel="";
+bool hasLabel = false;
+bool isMeasuring = false;
+unsigned long startTime = 0;
+const unsigned long RUNTIME = 10000;
+
 void setup() {
   // put your setup code here, to run once:
   
@@ -109,25 +115,55 @@ void setup() {
   
   /* We're ready to go! */
   Serial.println("");
+  Serial.println("Type Location Label and press enter: ");
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  if (!hasLabel && Serial.available() > 0){
+    sessionLabel = Serial.readStringUntil('\n');
+    sessionLabel.trim();
 
-  int buttonState = digitalRead(ButtonPin);
-
-  if (buttonState == LOW){
-    sensors_event_t event;
-    tsl.getEvent(&event);
-
-    if(event.light){
-      Serial.print(event.light); Serial.println(" lux");
-    } else {
-      Serial.println("SENSOR OVERLOAD");
+    if (sessionLabel.length() > 0) {
+    hasLabel = true;
+    Serial.print("\nLabel: ["); Serial.print(sessionLabel); Serial.println("]");
+    Serial.println("metering in 5!");
+    delay(1000);
+    Serial.println("4!");
+    delay(1000);
+    Serial.println("3!");
+    delay(1000);
+    Serial.println("2!");
+    delay(1000);
+    Serial.println("1!");
     }
-    delay(250);
-
   }
-    
 
+  if(hasLabel && !isMeasuring){
+      isMeasuring = true;
+      startTime = millis();
+      Serial.println("---starting metering---");
+  }
+
+  if (isMeasuring){
+    if(millis() - startTime < RUNTIME){
+      sensors_event_t event;
+      tsl.getEvent(&event);
+      if (event.light){
+        Serial.print("[");
+        Serial.print(sessionLabel);
+        Serial.print("] Light Level: ");
+        Serial.print(event.light);
+        Serial.println(" lux");
+      }
+      delay(250);
+    } else {
+      Serial.println("--- Timer Finished ---\n");
+      Serial.println("Type a new label to start again:");
+      isMeasuring = false;
+      hasLabel = false;
+      sessionLabel = "";
+    }
+  }
+}
 }
