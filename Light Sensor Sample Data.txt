@@ -342,7 +342,6 @@ metering in 5!
 
 Type a new label to start again:
 
-
 Label: [1600, 1/30, 4.0]
 metering in 5!
 4!
@@ -391,4 +390,103 @@ metering in 5!
 --- Timer Finished ---
 
 Type a new label to start again:
+
+Label: [100, 1/60, 5.6]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[100, 1/60, 5.6] Light Level: 2051.00 lux
+[100, 1/60, 5.6] Light Level: 2044.00 lux
+[100, 1/60, 5.6] Light Level: 2050.00 lux
+[100, 1/60, 5.6] Light Level: 2049.00 lux
+[100, 1/60, 5.6] Light Level: 2041.00 lux
+[100, 1/60, 5.6] Light Level: 2042.00 lux
+[100, 1/60, 5.6] Light Level: 2031.00 lux
+[100, 1/60, 5.6] Light Level: 1951.00 lux
+[100, 1/60, 5.6] Light Level: 1905.00 lux
+[100, 1/60, 5.6] Light Level: 1902.00 lux
+[100, 1/60, 5.6] Light Level: 1908.00 lux
+[100, 1/60, 5.6] Light Level: 1915.00 lux
+[100, 1/60, 5.6] Light Level: 1920.00 lux
+[100, 1/60, 5.6] Light Level: 1911.00 lux
+[100, 1/60, 5.6] Light Level: 1914.00 lux
+[100, 1/60, 5.6] Light Level: 1909.00 lux
+[100, 1/60, 5.6] Light Level: 1899.00 lux
+[100, 1/60, 5.6] Light Level: 1900.00 lux
+[100, 1/60, 5.6] Light Level: 1893.00 lux
+[100, 1/60, 5.6] Light Level: 1891.00 lux
+[100, 1/60, 5.6] Light Level: 1887.00 lux
+[100, 1/60, 5.6] Light Level: 1884.00 lux
+[100, 1/60, 5.6] Light Level: 1882.00 lux
+[100, 1/60, 5.6] Light Level: 1880.00 lux
+[100, 1/60, 5.6] Light Level: 1875.00 lux
+[100, 1/60, 5.6] Light Level: 1874.00 lux
+[100, 1/60, 5.6] Light Level: 1868.00 lux
+[100, 1/60, 5.6] Light Level: 1866.00 lux
+[100, 1/60, 5.6] Light Level: 1865.00 lux
+[100, 1/60, 5.6] Light Level: 1864.00 lux
+[100, 1/60, 5.6] Light Level: 1859.00 lux
+[100, 1/60, 5.6] Light Level: 1855.00 lux
+[100, 1/60, 5.6] Light Level: 1854.00 lux
+[100, 1/60, 5.6] Light Level: 1849.00 lux
+[100, 1/60, 5.6] Light Level: 1844.00 lux
+[100, 1/60, 5.6] Light Level: 1828.00 lux
+[100, 1/60, 5.6] Light Level: 1743.00 lux
+[100, 1/60, 5.6] Light Level: 1733.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
+Label: [100, 1/60, 5.6]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[100, 1/60, 5.6] Light Level: 568.00 lux
+[100, 1/60, 5.6] Light Level: 560.00 lux
+[100, 1/60, 5.6] Light Level: 570.00 lux
+[100, 1/60, 5.6] Light Level: 576.00 lux
+[100, 1/60, 5.6] Light Level: 584.00 lux
+[100, 1/60, 5.6] Light Level: 594.00 lux
+[100, 1/60, 5.6] Light Level: 600.00 lux
+[100, 1/60, 5.6] Light Level: 605.00 lux
+[100, 1/60, 5.6] Light Level: 612.00 lux
+[100, 1/60, 5.6] Light Level: 615.00 lux
+[100, 1/60, 5.6] Light Level: 617.00 lux
+[100, 1/60, 5.6] Light Level: 610.00 lux
+[100, 1/60, 5.6] Light Level: 590.00 lux
+[100, 1/60, 5.6] Light Level: 570.00 lux
+[100, 1/60, 5.6] Light Level: 562.00 lux
+[100, 1/60, 5.6] Light Level: 555.00 lux
+[100, 1/60, 5.6] Light Level: 563.00 lux
+[100, 1/60, 5.6] Light Level: 578.00 lux
+[100, 1/60, 5.6] Light Level: 592.00 lux
+[100, 1/60, 5.6] Light Level: 601.00 lux
+[100, 1/60, 5.6] Light Level: 609.00 lux
+[100, 1/60, 5.6] Light Level: 618.00 lux
+[100, 1/60, 5.6] Light Level: 623.00 lux
+[100, 1/60, 5.6] Light Level: 611.00 lux
+[100, 1/60, 5.6] Light Level: 631.00 lux
+[100, 1/60, 5.6] Light Level: 645.00 lux
+[100, 1/60, 5.6] Light Level: 650.00 lux
+[100, 1/60, 5.6] Light Level: 667.00 lux
+[100, 1/60, 5.6] Light Level: 679.00 lux
+[100, 1/60, 5.6] Light Level: 683.00 lux
+[100, 1/60, 5.6] Light Level: 682.00 lux
+[100, 1/60, 5.6] Light Level: 692.00 lux
+[100, 1/60, 5.6] Light Level: 689.00 lux
+[100, 1/60, 5.6] Light Level: 678.00 lux
+[100, 1/60, 5.6] Light Level: 674.00 lux
+[100, 1/60, 5.6] Light Level: 675.00 lux
+[100, 1/60, 5.6] Light Level: 676.00 lux
+[100, 1/60, 5.6] Light Level: 675.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
 
