@@ -341,3 +341,54 @@ metering in 5!
 --- Timer Finished ---
 
 Type a new label to start again:
+
+
+Label: [1600, 1/30, 4.0]
+metering in 5!
+4!
+3!
+2!
+1!
+---starting metering---
+[1600, 1/30, 4.0] Light Level: 16.00 lux
+[1600, 1/30, 4.0] Light Level: 15.00 lux
+[1600, 1/30, 4.0] Light Level: 15.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 12.00 lux
+[1600, 1/30, 4.0] Light Level: 12.00 lux
+[1600, 1/30, 4.0] Light Level: 12.00 lux
+[1600, 1/30, 4.0] Light Level: 12.00 lux
+[1600, 1/30, 4.0] Light Level: 12.00 lux
+[1600, 1/30, 4.0] Light Level: 14.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 14.00 lux
+[1600, 1/30, 4.0] Light Level: 14.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 14.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 13.00 lux
+[1600, 1/30, 4.0] Light Level: 16.00 lux
+[1600, 1/30, 4.0] Light Level: 17.00 lux
+[1600, 1/30, 4.0] Light Level: 18.00 lux
+[1600, 1/30, 4.0] Light Level: 18.00 lux
+[1600, 1/30, 4.0] Light Level: 17.00 lux
+[1600, 1/30, 4.0] Light Level: 17.00 lux
+[1600, 1/30, 4.0] Light Level: 17.00 lux
+[1600, 1/30, 4.0] Light Level: 17.00 lux
+[1600, 1/30, 4.0] Light Level: 15.00 lux
+[1600, 1/30, 4.0] Light Level: 16.00 lux
+[1600, 1/30, 4.0] Light Level: 15.00 lux
+--- Timer Finished ---
+
+Type a new label to start again:
+
