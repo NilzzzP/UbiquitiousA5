@@ -94,11 +94,12 @@ const unsigned long RUNTIME = 10000;
 void setup() {
   // put your setup code here, to run once:
   
+  
   Serial.begin(9600);
   while (!Serial){delay(10);}
 
   Serial.println("Button and Light Sensor Ready");
-  pinMode(ButtonPin, INPUT);
+  pinMode(ButtonPin, INPUT_PULLUP);
   
   if(!tsl.begin())
   {
@@ -120,6 +121,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  int buttonState = digitalRead(ButtonPin);
   if (!hasLabel && Serial.available() > 0){
     sessionLabel = Serial.readStringUntil('\n');
     sessionLabel.trim();
@@ -136,13 +138,22 @@ void loop() {
     Serial.println("2!");
     delay(1000);
     Serial.println("1!");
+    delay(1000);
     }
   }
 
-  if(hasLabel && !isMeasuring){
-      isMeasuring = true;
-      startTime = millis();
-      Serial.println("---starting metering---");
+
+
+  // if(hasLabel && !isMeasuring){
+  //     isMeasuring = true;
+  //     startTime = millis();
+  //     Serial.println("---starting metering---");
+  // }
+
+  if(hasLabel && buttonState==LOW &!isMeasuring){
+    isMeasuring = true;
+    startTime = millis();
+    Serial.println("---starting metering---");
   }
 
   if (isMeasuring){
@@ -165,5 +176,4 @@ void loop() {
       sessionLabel = "";
     }
   }
-}
 }
