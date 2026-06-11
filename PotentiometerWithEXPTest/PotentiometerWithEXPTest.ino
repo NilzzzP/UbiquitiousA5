@@ -30,24 +30,19 @@ void loop() {
 
   if (buttonState == LOW) {
     
-    // 1. Read the raw 0-1023 values
     int rawAperture = analogRead(POT_APERTURE);
     int rawShutterSpeed = analogRead(POT_SHUTTERSPEED);
 
-    // 2. The Math Magic: Convert 0-1023 into an Array Index (0 to 6, or 0 to 5)
-    // This chops the pot's rotation into perfectly equal slices.
     int indexAperture = getZoneIndex(rawAperture, ApertureBounds, numAperturePositions);
     int indexShutterSpeed = getZoneIndex(rawShutterSpeed, ShutterSpeedBounds, numShutterSpeedPositions);
 
-    // 3. Pull the specific number out of our arrays based on the zone
     float selectedAperture = ApertureDialValues[indexAperture];
     int selectedShutterSpeed = ShutterSpeedDialValues[indexShutterSpeed];
 
-    // 4. Print the snapped values!
-    Serial.print("Left Dial (Aperture): f/");
+    Serial.print("(Aperture): f/");
     Serial.print(selectedAperture, 1); // The '1' tells it to print one decimal place
     
-    Serial.print("  |  Right Dial (Shutter): 1/");
+    Serial.print("  |(Shutter): 1/");
     Serial.println(selectedShutterSpeed); 
 
     // Debounce delay
@@ -57,8 +52,8 @@ void loop() {
 int getZoneIndex(int rawReading, int boundsArray[], int numZones) {
   for (int i = 0; i < numZones; i++) {
     if (rawReading <= boundsArray[i]) {
-      return i; // Found the zone!
+      return i;
     }
   }
-  return numZones - 1; // Fallback to the last zone just in case
+  return numZones - 1;
 }
