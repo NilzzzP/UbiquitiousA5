@@ -159,4 +159,4 @@ with open(output_filename,'w', newline='') as file:
         FinalAperture = round_to_nearest(RAWAperture, ValidApertureValues)
 
         writer.writerow([lux_value, FinalISO, FinalShutterSpeed_String, FinalAperture])
-print(f"Success! Wrote exactly 2000 individual rows to {output_filename}.")
+print(f"Wrote 2000 rows to {output_filename}.")
